@@ -1,0 +1,197 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'yo' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'yo', null ]
+6 verbose cache add name=undefined spec="yo" args=["yo",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'yo',
+7 verbose parsed url   path: 'yo',
+7 verbose parsed url   href: 'yo' }
+8 silly lockFile c41975d1-yo yo
+9 verbose lock yo /home/gustavo/.npm/c41975d1-yo.lock
+10 silly lockFile c41975d1-yo yo
+11 silly lockFile c41975d1-yo yo
+12 verbose addNamed [ 'yo', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile d937c28e-yo yo@
+15 verbose lock yo@ /home/gustavo/.npm/d937c28e-yo.lock
+16 silly addNameRange { name: 'yo', range: '*', hasData: false }
+17 verbose request where is /yo
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id c20cd94225b62073
+20 verbose url raw /yo
+21 verbose url resolving [ 'https://registry.npmjs.org/', './yo' ]
+22 verbose url resolved https://registry.npmjs.org/yo
+23 verbose request where is https://registry.npmjs.org/yo
+24 info trying registry request attempt 1 at 18:09:27
+25 verbose etag "6S4FNEMGVUI8ZPI8N6ZJZ2VS6"
+26 http GET https://registry.npmjs.org/yo
+27 http 304 https://registry.npmjs.org/yo
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Thu, 18 Sep 2014 21:09:28 GMT',
+28 silly registry.get     server: 'Apache',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'last-modified': 'Thu, 18 Sep 2014 21:09:28 GMT',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"6S4FNEMGVUI8ZPI8N6ZJZ2VS6"',
+28 silly registry.get     'x-served-by': 'cache-iad2129-IAD',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1411074568.770249,VS0,VE9',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'content-length': '0',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 verbose etag https://registry.npmjs.org/yo from cache
+30 silly addNameRange number 2 { name: 'yo', range: '*', hasData: true }
+31 silly addNameRange versions [ 'yo',
+31 silly addNameRange   [ '1.0.0-beta.1',
+31 silly addNameRange     '1.0.0-beta.2',
+31 silly addNameRange     '1.0.0-beta.3',
+31 silly addNameRange     '1.0.0-beta.4',
+31 silly addNameRange     '1.0.0-beta.5',
+31 silly addNameRange     '1.0.0-beta.6',
+31 silly addNameRange     '1.0.0-beta.7',
+31 silly addNameRange     '1.0.0-rc.1',
+31 silly addNameRange     '1.0.0-rc.1.1',
+31 silly addNameRange     '1.0.0-rc.1.2',
+31 silly addNameRange     '1.0.0-rc.1.3',
+31 silly addNameRange     '1.0.0-rc.1.4',
+31 silly addNameRange     '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.0.2',
+31 silly addNameRange     '1.0.3',
+31 silly addNameRange     '1.0.4',
+31 silly addNameRange     '1.0.5',
+31 silly addNameRange     '1.0.6',
+31 silly addNameRange     '1.0.7-pre.1',
+31 silly addNameRange     '1.0.7-pre.2',
+31 silly addNameRange     '1.0.7-pre.3',
+31 silly addNameRange     '1.1.0',
+31 silly addNameRange     '1.1.1',
+31 silly addNameRange     '1.1.2',
+31 silly addNameRange     '1.2.0',
+31 silly addNameRange     '1.2.1' ] ]
+32 verbose addNamed [ 'yo', '1.2.1' ]
+33 verbose addNamed [ '1.2.1', '1.2.1' ]
+34 silly lockFile d0748f21-yo-1-2-1 yo@1.2.1
+35 verbose lock yo@1.2.1 /home/gustavo/.npm/d0748f21-yo-1-2-1.lock
+36 silly lockFile d0748f21-yo-1-2-1 yo@1.2.1
+37 silly lockFile d0748f21-yo-1-2-1 yo@1.2.1
+38 silly lockFile d937c28e-yo yo@
+39 silly lockFile d937c28e-yo yo@
+40 silly resolved [ { name: 'yo',
+40 silly resolved     version: '1.2.1',
+40 silly resolved     description: 'CLI tool for running Yeoman generators',
+40 silly resolved     license: 'BSD',
+40 silly resolved     bin: { yo: 'cli.js' },
+40 silly resolved     author: { name: 'The Yeoman Team' },
+40 silly resolved     repository: { type: 'git', url: 'git://github.com/yeoman/yo' },
+40 silly resolved     engines: { node: '>=0.10.0', npm: '>=1.4.3' },
+40 silly resolved     scripts:
+40 silly resolved      { test: 'grunt',
+40 silly resolved        postinstall: 'node ./scripts/doctor',
+40 silly resolved        postupdate: 'node ./scripts/doctor' },
+40 silly resolved     files: [ 'cli.js', 'yoyo.js', 'yeoman.txt', 'scripts' ],
+40 silly resolved     keywords:
+40 silly resolved      [ 'front-end',
+40 silly resolved        'development',
+40 silly resolved        'dev',
+40 silly resolved        'build',
+40 silly resolved        'web',
+40 silly resolved        'tool',
+40 silly resolved        'cli',
+40 silly resolved        'scaffold',
+40 silly resolved        'stack',
+40 silly resolved        'yeoman',
+40 silly resolved        'generator',
+40 silly resolved        'app' ],
+40 silly resolved     dependencies:
+40 silly resolved      { async: '^0.9.0',
+40 silly resolved        chalk: '^0.5.0',
+40 silly resolved        findup: '^0.1.3',
+40 silly resolved        fullname: '^0.1.0',
+40 silly resolved        insight: '^0.3.1',
+40 silly resolved        'is-root': '^0.1.0',
+40 silly resolved        lodash: '^2.4.1',
+40 silly resolved        multiline: '^0.3.4',
+40 silly resolved        nopt: '^3.0.0',
+40 silly resolved        opn: '^0.1.1',
+40 silly resolved        shelljs: '^0.3.0',
+40 silly resolved        'string-length': '^0.1.2',
+40 silly resolved        'sudo-block': '^0.4.0',
+40 silly resolved        'update-notifier': '^0.2.0',
+40 silly resolved        'yeoman-generator': '^0.17.1',
+40 silly resolved        yosay: '^0.3.0' },
+40 silly resolved     peerDependencies: { 'grunt-cli': '>=0.1.7', bower: '>=1.0.0' },
+40 silly resolved     devDependencies:
+40 silly resolved      { grunt: '^0.4.2',
+40 silly resolved        'grunt-contrib-jshint': '^0.10.0',
+40 silly resolved        'grunt-contrib-watch': '^0.6.1',
+40 silly resolved        'grunt-mocha-test': '^0.11.0',
+40 silly resolved        mockery: '^1.4.0',
+40 silly resolved        sinon: '^1.10.3' },
+40 silly resolved     engineStrict: true,
+40 silly resolved     preferGlobal: true,
+40 silly resolved     bugs: { url: 'https://github.com/yeoman/yo/issues' },
+40 silly resolved     homepage: 'https://github.com/yeoman/yo',
+40 silly resolved     _id: 'yo@1.2.1',
+40 silly resolved     dist:
+40 silly resolved      { shasum: '95ca7731511534c782f5934fa0db6718487d1528',
+40 silly resolved        tarball: 'http://registry.npmjs.org/yo/-/yo-1.2.1.tgz' },
+40 silly resolved     _from: 'yo@',
+40 silly resolved     _npmVersion: '1.4.6',
+40 silly resolved     _npmUser: { name: 'sboudrias', email: 'admin@simonboudrias.com' },
+40 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+40 silly resolved     directories: {},
+40 silly resolved     _shasum: '95ca7731511534c782f5934fa0db6718487d1528',
+40 silly resolved     _resolved: 'https://registry.npmjs.org/yo/-/yo-1.2.1.tgz',
+40 silly resolved     readme: 'ERROR: No README data found!' } ]
+41 info install yo@1.2.1 into /usr/lib
+42 info installOne yo@1.2.1
+43 verbose lib/node_modules/yo unbuild
+44 verbose tar unpack /home/gustavo/.npm/yo/1.2.1/package.tgz
+45 silly lockFile 7bedd6dc-tar-usr-lib-node-modules-yo tar:///usr/lib/node_modules/yo
+46 verbose lock tar:///usr/lib/node_modules/yo /home/gustavo/.npm/7bedd6dc-tar-usr-lib-node-modules-yo.lock
+47 silly lockFile 8c9194bc-gustavo-npm-yo-1-2-1-package-tgz tar:///home/gustavo/.npm/yo/1.2.1/package.tgz
+48 verbose lock tar:///home/gustavo/.npm/yo/1.2.1/package.tgz /home/gustavo/.npm/8c9194bc-gustavo-npm-yo-1-2-1-package-tgz.lock
+49 silly gunzTarPerm modes [ '775', '664' ]
+50 error Error: EACCES, mkdir '/usr/lib/node_modules/yo'
+50 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/yo']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/usr/lib/node_modules/yo',
+50 error   fstream_type: 'Directory',
+50 error   fstream_path: '/usr/lib/node_modules/yo',
+50 error   fstream_class: 'DirWriter',
+50 error   fstream_stack:
+50 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+50 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+50 error      'Object.oncomplete (fs.js:107:15)' ] }
+51 error Please try running this command again as root/Administrator.
+52 error System Linux 3.13.0-35-generic
+53 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "yo"
+54 error cwd /home/gustavo/tutorials
+55 error node -v v0.10.32
+56 error npm -v 1.4.28
+57 error path /usr/lib/node_modules/yo
+58 error fstream_path /usr/lib/node_modules/yo
+59 error fstream_type Directory
+60 error fstream_class DirWriter
+61 error code EACCES
+62 error errno 3
+63 error stack Error: EACCES, mkdir '/usr/lib/node_modules/yo'
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+64 error fstream_stack Object.oncomplete (fs.js:107:15)
+65 verbose exit [ 3, true ]
